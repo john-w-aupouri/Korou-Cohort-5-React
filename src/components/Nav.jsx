@@ -33,7 +33,8 @@ const Nav = () => {
         <a
           style={navStyle}
           href='https://johns-react-blogs.netlify.app'
-          target='_blank'>
+          target='_blank'
+          rel='noreferrer'>
           <li>Blogs</li>
         </a>
         <Link style={navStyle} to='/contact'>
